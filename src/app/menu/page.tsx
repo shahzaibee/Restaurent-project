@@ -1,10 +1,9 @@
 import { menu } from "@/data";
 import Link from "next/link";
 
-
 const MenuPage = () => {
   return (
-    <div className="p-4 lg:px-20 xl:px-40 h-[calc(110vh)] md:h-[calc(100vh-5rem)] flex flex-col md:flex-row items-center">
+    <div className="p-4 lg:px-20 xl:px-40 h-[calc(130vh)] md:h-[calc(100vh-5rem)] flex flex-col md:flex-row items-center">
       {menu.map((category) => (
         <Link
           key={category.id}
